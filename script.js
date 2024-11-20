@@ -1,7 +1,7 @@
 function academy() {
     return alert('olá, bem vindo(a) a academia genasfitnes')
 }
-
+academy()
 let menu = ''
 const option = [
     '1- Fazer mobilidade.',
