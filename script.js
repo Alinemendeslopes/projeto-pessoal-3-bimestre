@@ -1,5 +1,5 @@
 function academy() {
-    return ('olá, bem vindo(a) a academia genasfitnes')
+    return alert('olá, bem vindo(a) a academia genasfitnes')
 }
 
 let menu = ''
