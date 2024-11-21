@@ -1,16 +1,16 @@
 function academy() {
-    return alert('olá, bem vindo(a) a academia genasfitnes')
+    return alert('olá, bem vindo(a) a academia Genasfitness')
 }
 academy()
-let menu = ''
-const option = [
-    '1- Fazer mobilidade.',
-    '2- Pegar mais peso ',
-    '3- Pegar menos peso.',
-    '4- Sair.'
-]
-do {
-    prompt(`Opções disponíveis:\n${options.join('\n')}`)
+let starttraining = prompt('Começe o seu treino! (sim/não)')
+if (starttraining=='sim'){
+    let menu = ''
+do{
+menu =  prompt(`Opções disponíveis
+    1- Fazer mobilidade.
+    2- Pegar mais peso 
+    3- Pegar menos peso.
+    4- Sair.`)
     switch(menu){
         case'1':
         alert('Parabéns você fez a mobilidade e não ficou dolorido(a)!')
@@ -25,5 +25,9 @@ do {
         default:
             alert('Opção indisponível.')
     }
-
-} while(menu !=="4")
+} 
+while(menu !=="4") }
+else {
+    (starttraining=='não')
+    alert('Você não irá treinar hoje!')
+}
