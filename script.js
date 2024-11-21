@@ -13,17 +13,17 @@ menu =  prompt(`Opções disponíveis
     4- Sair.`)
     switch(menu){
         case'1':
-        alert('Parabéns você fez a mobilidade e não ficou dolorido(a)!')
-        break
+            alert('Parabéns você fez a mobilidade e não ficou dolorido(a)!')
+            break
         case'2':
-        alert('Você pegou mais peso e ficou bombadão!')
-        break
+            alert('Você pegou mais peso e ficou bombadão!')
+            break
         case'3':
-        alert('Você pegou menos peso e ficou fraco!')
-        break
+            alert('Você pegou menos peso e ficou fraco!')
+            break
         case'4':
-        alert('Saindo...')
-        break
+            alert('Saindo...')
+            break
         default:
             alert('Opção indisponível.')
     }
