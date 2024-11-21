@@ -17,8 +17,10 @@ menu =  prompt(`Opções disponíveis
         break
         case'2':
         alert('Você pegou mais peso e ficou bombadão!')
+        break
         case'3':
         alert('Você pegou menos peso e ficou fraco!')
+        break
         case'4':
         alert('Saindo...')
         break
